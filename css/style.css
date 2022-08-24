@@ -50,6 +50,12 @@ a{
 #navber{
     background: var(--color-ash);
     padding: 30px 0;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
 }
 #navber  ul li a{
     margin-left: 45px;
@@ -57,6 +63,21 @@ a{
     font-size: 24px;
     font-weight: var(--regular);
     text-transform: capitalize;
+}
+#navber.sticky_menu{
+    position: fixed;
+    background: var(--color-ash);
+    animation: sticky .4s linear;
+
+}
+@keyframes sticky {
+    0%{
+        top: -100px;
+    }
+    100%{
+        top: 0;
+    }
+    
 }
 /* Navber End */
 

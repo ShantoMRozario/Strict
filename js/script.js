@@ -10,3 +10,16 @@ $(document).ready(function(){
         autoplaySpeed: 1000
       });
   });
+
+  // Navbar & Top button
+let navbar = document.querySelector('#navber');
+window.addEventListener('scroll',function(){
+    var sticky = window.scrollY;
+
+    if (sticky > 180) {
+        navbar.classList.add("sticky_menu")
+        
+    } else {
+        navbar.classList.remove("sticky_menu")
+    }
+})
