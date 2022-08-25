@@ -9,7 +9,7 @@ $(document).ready(function(){
         slidesToScroll: 1,
         prevArrow:'<i class="fa-solid fa-chevron-left prev-arrow"></i>',
         nextArrow:'<i class="fa-solid fa-chevron-right next-arrow"></i>',
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 1000,
         responsive: [
             {

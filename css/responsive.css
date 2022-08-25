@@ -224,11 +224,23 @@
     #banner .ban_info h1::after {
         width: 50%;
     }
+    #typo {
+        padding: 60px 0;
+    }
+    #typo .typo_info p {
+        padding: 15px 40px;
+    }
+    #service {
+        padding: 60px 0;
+    }
     #service .item .info h3 {
         font-size: 18px;
     }
     #service .item .info p {
         padding: 0px 180px;
+    }
+    #showcase {
+        padding: 60px 0;
     }
     #contact .contact_info input {
         width: 560px;
