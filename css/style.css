@@ -22,6 +22,9 @@
     outline: 0;
     font-family: 'Lato', sans-serif;;
 }
+body{
+    overflow-x: hidden;
+}
 ul,ol{
     list-style: none;
 }
@@ -108,7 +111,7 @@ a{
 #banner .ban_info h1::after{
     position: absolute;
     content: "";
-    width: 600px;
+    width: 50%;
     height: 1px;
     bottom: 0;
     left: 50%;
@@ -418,25 +421,3 @@ a{
     padding: 10px;
 }
 /* Copyright End */
-
-
-/* Banner Start */
-/* Banner End */
-
-
-/* Banner Start */
-/* Banner End */
-
-
-/* Banner Start */
-/* Banner End */
-
-
-/* Banner Start */
-/* Banner End */
-
-
-/* Banner Start */
-/* Banner End */
-
-
