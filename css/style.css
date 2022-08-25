@@ -254,7 +254,8 @@ a{
 /* Showcase Start */
 #showcase{
     padding: 80px 0;
-    background: var(--color-ash)
+    background: var(--color-ash);
+    overflow-x: hidden;
 }
 #showcase .item{
     position: relative;
